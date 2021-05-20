@@ -1,0 +1,108 @@
+
+import React, { Component } from 'react';
+import Grid from "@material-ui/core/Grid";
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/styles';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
+
+
+const test = (props) => {
+    
+   const [fields,setFields] = React.useState({})
+   const [errors,setErrors] = React.useState({})
+   const form = React.createRef();
+   
+   const handleValidation = () => {
+        let errors = {};
+        let formIsValid = true;
+        
+            if(!fields["text_input_CAFA5B6F8AF3411C9032CD48659C4805"]){
+               formIsValid = false;
+               errors["text_input_CAFA5B6F8AF3411C9032CD48659C4805"] = "Display Name cannot be empty";
+            }
+
+            if(!fields["number_input_A066E92E7F1E45A6A3F5290AD61DEDE0"]){
+                formIsValid = false;
+                errors["number_input_A066E92E7F1E45A6A3F5290AD61DEDE0"] = "Placeholder Label cannot be empty";
+            }
+
+            if(!fields["text_area_A97BA03153A24FECAE3CC58139471314"]){
+               formIsValid = false;
+               errors["text_area_A97BA03153A24FECAE3CC58139471314"] = "Placeholder Label cannot be empty";
+            }
+        setErrors(errors)
+       return formIsValid;
+   }
+
+   const handleChange = (field, e) => {         
+    let fieldsT = fields;
+    fieldsT[field] = e.target.value;        
+    setFields(fieldsT);
+   }
+
+   const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if(handleValidation()){
+           alert("Form submitted");
+           setErrors({});
+           let fieldsT = fields;
+           Object.entries(fields).forEach((field)=>{fieldsT[field[0]]="";});
+           setFields(fieldsT);
+        }
+    }
+
+        const { classes } = props;
+        return (
+            <div style={{margin:'20%',marginTop:'5%', height:900}}>
+            <form ref={form}>
+                <Grid container spacing={3}>
+                    
+                <Grid item xs={12} >            
+                    <TextField
+                    id='A1A8BAE5-D205-4F1B-A14A-F48CDCB0D052'
+                    label='Display Name'
+                    type='text'
+                    value={fields.text_input_CAFA5B6F8AF3411C9032CD48659C4805}
+                    onChange={(e) => {handleChange("text_input_CAFA5B6F8AF3411C9032CD48659C4805",e)}}
+                    InputProps={{
+                        readOnly: false,
+                    }}
+                    /><div style={{color: "red"}}>{errors["text_input_CAFA5B6F8AF3411C9032CD48659C4805"]}</div></Grid>
+
+                <Grid item xs={12} >            
+                    <TextField
+                    id='87FE1AA3-AD22-43B8-82BA-BBCA56BFF5FC'
+                    label='Placeholder Label'
+                    type="number"
+                    value={fields.number_input_A066E92E7F1E45A6A3F5290AD61DEDE0}
+                    onChange={(e) => {handleChange("number_input_A066E92E7F1E45A6A3F5290AD61DEDE0",e)}}
+                   
+                    /><div style={{color: "red"}}>{errors["number_input_A066E92E7F1E45A6A3F5290AD61DEDE0"]}</div>
+                </Grid>
+
+                <Grid item xs={12} >            
+                    <TextField
+                    id='3D5082F6-9B31-42F4-AA8D-8F1EBB7819AC'
+                    multiline
+                    rowsMax={4}
+                    label='Placeholder Label'
+                    value={fields.text_area_A97BA03153A24FECAE3CC58139471314}
+                    onChange={(e) => {handleChange("text_area_A97BA03153A24FECAE3CC58139471314",e)}}
+                    /><div style={{color: "red"}}>{errors["text_area_A97BA03153A24FECAE3CC58139471314"]}</div></Grid>
+
+                <Grid item xs={12} >            
+                    <Button color="primary" variant="contained"   onClick={(e)=>{handleSubmit(e)}} 
+                    id='A4C36766-2C87-45B0-8AB7-C945507FCEF2' >Save</Button>
+                </Grid> 
+                </Grid>
+                </form>
+            </div>
+        );
+    
+}  
+test.propTypes = {
+    classes: PropTypes.object.isRequired,
+  };
+  export default test;

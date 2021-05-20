@@ -1,0 +1,1017 @@
+.patients {
+  max-width: calc(100% - 250px);
+  margin: 0px auto;
+}
+.patients > h1 {
+  font-size: 40px;
+  color: #000;
+  margin: 0px 0px 15px 0px;
+  font-weight: normal;
+}
+.patients .PatientFilterSection {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: flex-start;
+}
+.PatientFilterSection .MuiOutlinedInput-adornedStart {
+  height: 40px;
+}
+.patients .PatientFilterSection .MuiFormControl-root {
+  width: 100%;
+}
+.patients
+  .PatientFilterSection
+  .MuiFormControl-root
+  .MuiOutlinedInput-adornedEnd {
+  padding-right: 10px;
+}
+.patients
+  .PatientFilterSection
+  .datefromfield
+  .datePicker
+  .MuiInputBase-root
+  .MuiInputBase-input {
+  padding: 10px 0px 11px 11px;
+}
+
+.patients
+  .PatientFilterSection
+  .datetoField
+  .datePicker
+  .MuiInputBase-root
+  .MuiInputBase-input {
+  padding: 10px 0px 11px 11px;
+}
+.patients .PatientFilterSection > div {
+  min-width: 195px;
+}
+.patients .PatientFilterSection > div:nth-child(1) {
+  width: calc(20% - 15px);
+  margin-right: 15px;
+}
+.patients .PatientFilterSection > div:nth-child(1) .MuiSvgIcon-root {
+  fill: #69bafe;
+}
+.patients .PatientFilterSection > div {
+  width: calc(14% - 15px);
+  margin-right: 15px;
+  height: 40px;
+}
+.patients
+  .PatientFilterSection
+  .preliminarySelect
+  .MuiOutlinedInput-adornedEnd
+  .MuiSvgIcon-root {
+  display: none;
+}
+.patients .PatientFilterSection .Ip3Select {
+  width: 100%;
+}
+.patients
+  .PatientFilterSection
+  .Ip3Select
+  .MuiOutlinedInput-adornedEnd
+  .MuiSvgIcon-root {
+  display: none;
+}
+.patients .PatientFilterSection div.MuiFormControl-root .MuiInputBase-root {
+  background: #fff;
+}
+.patients
+  .PatientFilterSection
+  .MuiAutocomplete-root
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  padding: 6.5px 7px;
+  background: #fff;
+}
+.patients
+  .PatientFilterSection
+  .MuiAutocomplete-root
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+  .MuiAutocomplete-endAdornment
+  .MuiAutocomplete-popupIndicatorOpen {
+  transform: none;
+}
+.patients
+  .PatientFilterSection
+  .MuiAutocomplete-root
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+  .MuiAutocomplete-input {
+  padding: 4px 4px;
+}
+
+.patients .PatientFilterSection .MuiAutocomplete-root .MuiInputLabel-outlined {
+  z-index: 1;
+  transform: translate(14px, 12px) scale(1);
+  pointer-events: none;
+}
+.patients
+  .PatientFilterSection
+  .MuiAutocomplete-root
+  .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  z-index: 1;
+  transform: translate(14px, -6px) scale(0.75);
+  pointer-events: none;
+}
+.patients .PatientFilterSection .MuiFormControl-root .MuiSelect-select {
+  padding: 11px 32px 10px 10px;
+  /* margin-left: -70px; */
+  min-height: auto;
+}
+.patients
+  .PatientFilterSection
+  div.MuiFormControl-root
+  .MuiInputBase-root
+  .MuiSelect-iconOpen {
+  transform: none;
+}
+.patients .PatientFilterSection .MuiFormControl-root .MuiInputLabel-outlined {
+  z-index: 1;
+  transform: translate(14px, 12px) scale(1);
+  pointer-events: none;
+}
+.patients
+  .PatientFilterSection
+  .MuiFormControl-root
+  .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  z-index: 1;
+  transform: translate(14px, -6px) scale(0.85);
+  pointer-events: none;
+}
+.patients .PatientFilterSection .addsiteBtn {
+  margin-right: 0px;
+  margin-left: auto;
+  background: #0071ce;
+  border-radius: 5px;
+  color: #fff;
+  height: 40px;
+}
+.patients .PatientFilterSection .resetBtn {
+  border: 1px solid #0a2240;
+  border-radius: 5px;
+  color: #0a2240;
+  height: 40px;
+}
+.patients
+  .PatientFilterSection
+  .MuiGrid-root
+  .MuiFormControl-root
+  .MuiSelect-select {
+  padding: 10px 32px 10px 10px;
+  /* margin-left: -70px; */
+  min-height: auto;
+}
+.datePicker {
+  margin: 0px !important;
+}
+.datePicker .MuiInputBase-root .MuiInputBase-input {
+  padding: 11px 11px;
+}
+.datePicker .MuiInputAdornment-positionEnd .MuiIconButton-root {
+  padding: 0px;
+  fill: #69bafe;
+}
+/* *******************PATIENTS TABLE************************ */
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-thead
+  .rt-tr
+  .rt-th
+  .MuiSvgIcon-root {
+  width: 20px;
+  height: 20px;
+  margin-top: -6px;
+  margin-left: 10px;
+  fill: #00a4dc;
+}
+/* ACTION BUTTON */
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .actions
+  .editicon
+  svg {
+  fill: #00a4dc;
+}
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .actions
+  .editiconchild {
+  margin-left: 0px;
+}
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .actions
+  .editiconchild
+  svg {
+  fill: #f9ad17;
+  top: 2.5px;
+  position: relative;
+}
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .actions
+  .deleteicon
+  svg {
+  fill: #f10000;
+}
+
+/* ************************UPLOAD CT FORM************************************ */
+.uploadCT {
+  max-width: calc(100% - 250px);
+  margin: 0px auto;
+  position: relative;
+}
+.uploadCT .uploadpath {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+.uploadCT .uploadpath li:nth-child(1) {
+  color: #0a2240;
+}
+.uploadCT .uploadpath li {
+  list-style: none;
+  color: #0071ce;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.uploadCT .uploadpath li span {
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+
+.uploadCT .uploadpath li span svg {
+  fill: #0071ce;
+}
+.uploadCT .uploadpath li span {
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+
+.uploadCT .uploadpath li span svg {
+  fill: #0071ce;
+}
+.uploadCT > h2 {
+  font-size: 45px;
+  color: #000;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  font-weight: normal;
+}
+.uploadCT .formComponent {
+  margin-top: 20px;
+}
+.uploadCT .UploadForm {
+  box-shadow: 0px 2px 6px #00000029;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.uploadCT .UploadForm > div:nth-child(1) {
+  letter-spacing: 0px;
+  color: #0071ce;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+}
+/* .uploadCT .UploadForm > div:nth-child(2) {
+  letter-spacing: 0px;
+  color: #0071ce;
+  width: 100%;
+  height: 17px;
+  margin-bottom: 15px;
+}
+.uploadCT .UploadForm > div:nth-child(2) h4 {
+  color: #0071ce;
+  font-size: 17px;
+} */
+/* FIRST NAME , LAST NAME ,SITE , BIRTH YEAR DIV */
+.uploadCT .UploadForm > div:nth-child(2),
+.uploadCT .UploadForm > div:nth-child(3),
+.uploadCT .UploadForm > div:nth-child(4)
+/* .uploadCT .UploadForm > div:nth-child(5)  */ {
+  width: calc(33.33% - 15px);
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+/* PARTIAL INITIAL */
+.uploadCT .UploadForm > div:nth-child(2) .MuiInputBase-input {
+  text-transform: uppercase;
+}
+/* SITE STYLE */
+.uploadCT .UploadForm > div:nth-child(3) .MuiFormControl-root {
+  width: 100%;
+  position: relative;
+  top: 8px;
+}
+.uploadCT
+  .UploadForm
+  > div:nth-child(3)
+  .MuiFormControl-root
+  .MuiFormHelperText-root {
+  margin-top: 9px;
+}
+.uploadCT .UploadForm > div:nth-child(3) .MuiAutocomplete-inputRoot svg {
+  margin-right: -30px !important;
+}
+/* BIRTH YEAR STYLE */
+.uploadCT .UploadForm > div:nth-child(4) .MuiFormControl-root {
+  width: 100%;
+}
+.uploadCT .UploadForm > div:nth-child(4) .MuiIconButton-root {
+  padding: 12px 0px;
+}
+/* DROPDOWN ZONE */
+.uploadCT .UploadForm > div:nth-child(5) {
+  width: 100%;
+  /* background: #e9f5ff 0% 0% no-repeat padding-box;
+  border: 2px dashed #0071ce; */
+}
+.uploadCT .UploadForm > div:nth-child(5) .container {
+  max-width: 100%;
+  width: 100%;
+  padding: 0px;
+  /* margin-bottom: 15px; */
+}
+.uploadCT .UploadForm > div:nth-child(5) .container .dropzone {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* margin: 10px 0px; */
+  padding: 15px;
+  background: #e9f5ff 0% 0% no-repeat padding-box;
+  border: 2px dashed #0071ce;
+}
+/* DROPZONE IMAGE */
+.uploadCT .UploadForm > div:nth-child(5) .container .dropzone img {
+  margin-bottom: 10px;
+}
+/* DROPZONE TEXT*/
+.uploadCT .UploadForm > div:nth-child(5) .container .dropzone p {
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* DROPZONE BROWSE BUTTON */
+.uploadCT .UploadForm > div:nth-child(5) .container .dropzone .MuiButton-root {
+  background: #e9f5ff 0% 0% no-repeat padding-box;
+  border: 1px solid #0071ce;
+  border-radius: 5px;
+}
+/* DROPZONE BROWSE BUTTON LABEL */
+.uploadCT .UploadForm > div:nth-child(5) .container .dropzone .MuiButton-label {
+  color: #0071ce;
+}
+/* .uploadCT .UploadForm > div:nth-child(5) .container .fileContainer {
+  margin: 10px;
+  width: 100%;
+}
+.uploadCT .UploadForm > div:nth-child(5) .container .fileContainer ul {
+  list-style-type: none;
+  padding: 0px 15px;
+  margin: auto;
+} */
+.uploadCT .UploadForm > div:nth-child(5) .container .fileContainer {
+  margin: 10px;
+  /* border: 1px solid #0071ce; */
+  width: 100%;
+}
+.uploadCT .UploadForm > div:nth-child(5) .container .fileContainer ul {
+  list-style-type: none;
+  padding: 0px 15px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100px;
+  overflow-y: auto;
+}
+.uploadCT .UploadForm > div:nth-child(5) .container .fileContainer ul li {
+  display: flex;
+  align-items: center;
+  /* padding: 10px 0px; */
+  width: calc(25% - 15px);
+  margin-right: 15px;
+}
+.uploadCT .UploadForm > div:nth-child(5) .container .fileContainer ul li span {
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+.uploadCT
+  .UploadForm
+  > div:nth-child(5)
+  .container
+  .fileContainer
+  ul
+  li
+  .MuiIconButton-root
+  .MuiSvgIcon-root {
+  padding: 0px;
+  color: #f10000;
+}
+.uploadCT
+  .UploadForm
+  > div:nth-child(5)
+  .container
+  .fileContainer
+  ul
+  li
+  .MuiIconButton-root
+  .MuiSvgIcon-root {
+  font-size: 20px;
+}
+/* .uploadCT .UploadForm > div:nth-child(5) .MuiFormHelperText-root{
+  margin:0 43%;
+} */
+/* .uploadCT .UploadForm > div:nth-child(5) > div:nth-last-child(1) {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column; */
+/* margin: 10px 0px; */
+/* padding-right: 10px; */
+/* background: #e9f5ff 0% 0% no-repeat padding-box;
+  border: 2px dashed #0071ce; */
+/* } */
+/* .uploadCT .UploadForm > div:nth-child(5) > div:nth-last-child(1) li {
+  list-style-type: none;
+}
+.uploadCT
+  .UploadForm
+  > div:nth-child(6)
+  > div:nth-last-child(1)
+  li
+  .MuiSvgIcon-root {
+  margin-right: calc(4% - 25px);
+  fill: #69bafe;
+}
+.uploadCT .UploadForm > div:nth-child(5) > div:nth-last-child(1) li span {
+  margin-right: calc(4% - 25px);
+  font-size: 16px;
+  margin-bottom: 0px;
+} */
+/* REFERENCE ID STYLE */
+.uploadCT .UploadForm > div:nth-child(6) {
+  width: calc(25% - 15px);
+  margin-right: calc(75% - 15px);
+  margin-bottom: 15px;
+}
+/* COMMENT STYLE */
+.uploadCT .UploadForm > div:nth-child(7) {
+  width: calc(50% - 15px);
+  margin-bottom: 15px;
+}
+/* ************************END OF UPLOAD CT FORM************************************ */
+.uploadCT .UploadForm .UploadCt #dwv {
+  width: 100%;
+}
+.uploadCT .UploadForm .UploadCt #dwv .layerContainer {
+  max-height: 230px !important;
+}
+
+@media screen and (max-width: 1440px) {
+  .patients {
+    max-width: calc(100% - 200px);
+    margin: 0px auto;
+  }
+  .patients .PatientFilterSection .datetoField {
+    width: calc(12% - 15px);
+  }
+  .patients
+    .PatientFilterSection
+    .datetoField
+    .MuiInputAdornment-root
+    .MuiIconButton-label
+    svg {
+    width: 16px;
+    height: auto;
+  }
+  .patients
+    .PatientFilterSection
+    .datefromfield
+    .MuiInputAdornment-root
+    .MuiIconButton-label
+    svg {
+    width: 16px;
+    height: auto;
+  }
+  .patients .PatientFilterSection .datefromfield {
+    width: calc(12% - 15px);
+  }
+  .patients .PatientFilterSection .MuiFormControl-root .MuiInputLabel-outlined {
+    font-size: 14px;
+  }
+  .patients .PatientFilterSection > div:nth-child(1) {
+    width: calc(16% - 15px);
+  }
+  .patients
+    .PatientFilterSection
+    > div:nth-child(1)
+    .MuiOutlinedInput-adornedStart {
+    padding-left: 10px;
+  }
+  .patients .PatientFilterSection > div {
+    width: calc(15.5% - 15px);
+  }
+}
+
+/************************************/
+/* .PatientTableSection */
+/* .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td */
+
+/* div:nth-child(8) */
+/* rt-tr-group div > */
+
+/* .-odd div:nth-child(8) {
+  width: 70px !important;
+}
+.-even div:nth-child(8) {
+  width: 70px !important;
+} */
+
+.PatientTableSection .ReactTable .rt-thead .rt-th:nth-child(7) {
+  display: none;
+}
+
+.PatientTableSection .ReactTable .rt-thead .rt-th:nth-child(8) {
+  width: 120px !important;
+  max-width: 120px;
+}
+/* .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(8) {
+  width: 120px;
+  max-width: 120px;
+} */
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .PatientChild
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(7) {
+  width: 35px;
+  max-width: 35px;
+}
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .PatientChild
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(8) {
+  width: 85px;
+  max-width: 85px;
+  min-width: 85px;
+  flex: none;
+}
+/* .patients .PatientTableSection .ReactTable .rt-tbody .rt-expandable:empty {
+  display: none;
+} */
+.patients .PatientTableSection .ReactTable .rt-tbody .rt-expandable:empty {
+  /* display: none; */
+}
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .rt-expandable:empty
+  + .rt-td {
+  max-width: 85px;
+}
+.patients .PatientTableSection .ReactTable .rt-tbody .rt-expandable + .rt-td {
+  max-width: 85px;
+}
+.PatientTableSection .expansionCarot {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  background: #f9ad17;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-right: 2px;
+  transform: translateY(1px);
+}
+.PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .expansionCarot
+  svg {
+  fill: #fff;
+}
+
+.rt-expandable {
+  margin-left: 25px !important;
+}
+
+/* .patients
+  .PatientTableSection
+  .ReactTable
+  .rt-tbody
+  .rt-tr
+  .rt-td
+  .actions.exapandedAction {
+  min-width: 200px;
+} */
+
+/*****************Table *******************/
+.PatientChild .ReactTable {
+  padding: 0px !important;
+  border-top: 1px solid #ccc !important;
+}
+.PatientChild .ReactTable.-striped .rt-tbody .rt-tr-group .rt-tr.-odd {
+  background-color: #e9f5ff !important;
+}
+.PatientChild .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none !important;
+}
+.patients .PatientTableSection {
+  padding-bottom: 20px;
+  box-shadow: 0px 2px 6px #00000029;
+  border-radius: 6px;
+  background: #fff;
+}
+.patients .PatientTableSection .ReactTable {
+  padding: 0px 10px 0px 10px;
+}
+.patients .PatientTableSection .ReactTable .rt-thead .rt-tr {
+  padding-left: 0px;
+  padding-top: 0px;
+  border-bottom: 1px solid #ccc;
+}
+.patients
+  .PatientTableSection
+  .ReactTable
+  .rt-thead
+  .rt-tr
+  .rt-th:nth-child(1)
+  .rt-resizable-header-content {
+  overflow: visible;
+}
+.patients .PatientTableSection .ReactTable .rt-tbody .rt-tr-group {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Treatment History CSS */
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory {
+  min-height: 150px;
+  max-width: 75%;
+  width: 100%;
+  border-radius: 30px;
+  margin: 0px 0px 15px 0px;
+  padding: 15px;
+  border: 2px solid #0070c0;
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .editicon
+  svg {
+  fill: #00a4dc;
+  /* margin-top: -8px;
+  margin-left: 12px; */
+}
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .deleteicon
+  svg {
+  fill: #f10000;
+  /* margin-top: -8px;
+  margin-left: 12px; */
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .txdate {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .txdate
+  .editicon {
+  padding: 5px;
+}
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .txdate
+  > div {
+  width: calc(100% - 35px);
+  display: flex;
+  align-items: flex-start;
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .txdate
+  label {
+  margin: 0px 10px 0px 0px;
+  font-size: 16px;
+  color: #0071ce;
+  min-width: 70px;
+  width: 82px;
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .txdate
+  .value {
+  font-size: 16px;
+  color: #000000;
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .segmentPart {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  margin-bottom: 8px;
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .segmentPart
+  label {
+  margin: 0px 10px 0px 0px;
+  font-size: 16px;
+  color: #0071ce;
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .segmentPart
+  .value {
+  font-size: 16px;
+  color: #000000;
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .comments-treatment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .comments-treatment
+  label {
+  margin: 0px 10px 0px 0px;
+  font-size: 16px;
+  color: #0071ce;
+  min-width: 82px;
+  width: 82px;
+}
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .comments-treatment
+  > div {
+  display: flex;
+  align-items: flex-start;
+  width: calc(100% - 35px);
+}
+
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .comments-treatment
+  .comments-part {
+  padding-left: 0px;
+}
+.EditCTUpload
+  .patiendDataTreatment
+  > .treatmentHistory
+  .TreatmentHistorySection
+  .TreatmentHistory
+  .comments-treatment
+  .deleteicon {
+  padding: 5px;
+}
+/* .TreatmentHistoryContainer {
+} */
+
+.TreatmentHistoryContainer .deleteicon svg {
+  fill: #f10000;
+  margin-top: -8px;
+}
+.patients .PatientTableSection .ReactTable .rt-tbody .rt-expandable {
+  margin-left: 0px !important;
+}
+.cancelbtn-ctupload.MuiButton-root {
+  height: 44px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0a2240;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 16px/18px Klavika;
+  letter-spacing: 0px;
+  color: #0a2240;
+  opacity: 1;
+}
+.confirmbtn.MuiButton-root.Mui-disabled {
+  color: #fff;
+}
+.canceluploadbtn.MuiButton-root,
+.canceluploadbtn.MuiButton-root:hover {
+  height: 44px;
+  background: #0071ce 0% 0% no-repeat padding-box;
+  border: 1px solid #0a2240;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 16px/18px Klavika;
+  letter-spacing: 0px;
+  color: #fff;
+  opacity: 1;
+  text-decoration: none;
+}
+.canceluploadbtn,
+.canceluploadbtn:hover {
+  /* height: 44px; */
+  /* background: #0071ce 0% 0% no-repeat padding-box; */
+  /* border: 1px solid #0a2240; */
+  /* border-radius: 5px; */
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 22px/0px Klavika;
+  letter-spacing: 0px;
+  color: #fff;
+  opacity: 1;
+  text-decoration: none;
+  margin-top: 20px;
+  /* margin-right: 13px; */
+  /* margin-left: 20px; */
+}
+.Upload h4 {
+  /* margin-bottom: 0px; */
+  margin: 20px 0px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 1870px) {
+  .EditCTUpload
+    .patiendDataTreatment
+    > .treatmentHistory
+    .TreatmentHistorySection
+    .TreatmentHistory {
+    max-width: 85%;
+  }
+}
+@media screen and (max-width: 1699px) {
+  .EditCTUpload
+    .patiendDataTreatment
+    > .treatmentHistory
+    .TreatmentHistorySection
+    .TreatmentHistory {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .EditCTUpload
+    .patiendDataTreatment
+    > .treatmentHistory
+    .TreatmentHistorySection
+    .TreatmentHistory {
+    max-width: 100%;
+  }
+}
+
+.Upload {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+/****************************************/
+
+#menu-treatmentplanpath .MuiPopover-paper {
+  top: 178px !important;
+}
+
+#menu-preliminaryanalysispath .MuiPopover-paper {
+  top: 178px !important;
+}
+.uploadingLoader {
+  height: 100px;
+  width: 100px;
+}
+.uploadingLoader .MuiCircularProgress-root {
+  height: 100px !important;
+  width: 100px !important;
+  color: #6fabf0;
+}
+.uploadingLoader .MuiBox-root .MuiTypography-colorTextSecondary {
+  color: #fff;
+  font-size: x-large;
+}
+.progressStyle {
+  margin: 10px;
+  width: 100%;
+}
+
+.PatientFilterSection .siteStatus .MuiInputBase-root {
+  height: 40px;
+}
+
+.rescanError{
+  position: relative;
+  bottom: 16px;
+}
